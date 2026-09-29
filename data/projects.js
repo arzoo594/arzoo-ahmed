@@ -1,0 +1,136 @@
+export const projects = [
+  {
+    slug: "clubsphere",
+    title: "ClubSphere",
+    tagline: "Club Membership & Event Management Platform",
+    description:
+      "A full-stack MERN platform for managing club memberships, events, and registrations. Built with role-based access control so Members, Managers, and Admins each have a tailored dashboard experience.",
+    longDescription:
+      "ClubSphere is a comprehensive club management solution that handles the full lifecycle of membership and events. Members can browse clubs, register for events, and manage their profiles. Managers can create and publish events, approve memberships, and track attendance. Admins have full platform oversight with analytics and user management.",
+    image: "/images/projects/clubsphere.png",
+    category: ["mern", "fullstack"],
+    status: "completed",
+    features: [
+      "JWT-based authentication with Firebase social login",
+      "Role-based access: Member, Manager, Admin",
+      "Club creation and membership management",
+      "Event registration with seat limits",
+      "Stripe payment integration for paid events",
+      "Admin dashboard with user and club analytics",
+      "Manager dashboard for event oversight",
+      "Responsive UI with Tailwind CSS",
+    ],
+    technologies: ["React", "Node.js", "Express.js", "MongoDB", "Firebase", "Stripe", "Tailwind CSS", "JWT"],
+    github: "https://github.com/arzooahmed",
+    live: "https://arzooahmed01.netlify.app/",
+    roles: ["Member", "Manager", "Admin"],
+  },
+  {
+    slug: "rentwheels",
+    title: "RentWheels",
+    tagline: "MERN-Based Car Rental Platform",
+    description:
+      "A full-stack car rental platform where users can browse available vehicles, book rentals, and manage their reservations. Features Firebase authentication and a clean, responsive interface.",
+    longDescription:
+      "RentWheels simplifies the car rental process with a modern interface. Users authenticate via Firebase, browse a filterable car catalog, and make rental bookings with date selection. The backend is a RESTful API built with Express and MongoDB, deployed on Vercel for fast global access.",
+    image: "/images/projects/rentwheels.png",
+    category: ["mern", "fullstack"],
+    status: "completed",
+    features: [
+      "Firebase authentication (email/password + Google)",
+      "Car browsing with category and price filters",
+      "Rental booking with date range selection",
+      "User booking history and management",
+      "RESTful backend API with Express.js",
+      "MongoDB for persistent data storage",
+      "Fully responsive across all devices",
+    ],
+    technologies: ["React", "Node.js", "Express.js", "MongoDB", "Firebase", "Tailwind CSS"],
+    github: "https://github.com/arzooahmed",
+    live: "https://rentwheels-car-rental.vercel.app/",
+    roles: [],
+  },
+  {
+    slug: "zap-shipt",
+    title: "Zap Shipt",
+    tagline: "Parcel Delivery Management Platform",
+    description:
+      "A multi-role parcel delivery system with district-based routing, interactive maps via Leaflet, and Stripe payments. Supports Admin, Rider, and User roles with a full delivery tracking workflow.",
+    longDescription:
+      "Zap Shipt is a logistics platform built for managing parcel deliveries across districts. Users book shipments, Riders manage pickups and deliveries, and Admins oversee the entire operation. Interactive maps powered by Leaflet visualize delivery routes and district coverage.",
+    image: "/images/projects/zap-shipt.png",
+    category: ["mern", "fullstack"],
+    status: "completed",
+    features: [
+      "Parcel booking with district-based pricing",
+      "Rider assignment and delivery management system",
+      "Interactive map with Leaflet for route visualization",
+      "Stripe payment for delivery fees",
+      "Admin panel for platform management",
+      "Role-based dashboards: User, Rider, Admin",
+      "Real-time delivery status tracking",
+    ],
+    technologies: ["React", "Vite", "Node.js", "Express.js", "MongoDB", "Firebase", "Tailwind CSS", "DaisyUI", "Leaflet", "Stripe"],
+    github: "https://github.com/arzooahmed",
+    live: "https://arzooahmed01.netlify.app/",
+    roles: ["User", "Rider", "Admin"],
+    accentColor: "#caeb66",
+    darkAccent: "#03373d",
+  },
+  {
+    slug: "foodscience",
+    title: "FoodScience",
+    tagline: "Food & Health Information Website",
+    description:
+      "An informational health website featuring food facts, myth-busting articles, and a suite of nutrition calculators including BMI, BMR, IBW, daily calorie, water intake, and protein needs.",
+    longDescription:
+      "FoodScience brings science-backed food and nutrition information to everyday users. The calculator suite covers the most common health metrics people track. Built with React and styled with Tailwind CSS and DaisyUI for a clean, accessible experience.",
+    image: "/images/projects/foodscience.png",
+    category: ["frontend"],
+    status: "completed",
+    features: [
+      "Food information and nutrition facts",
+      "Myth vs Fact health articles",
+      "BMI Calculator",
+      "BMR (Basal Metabolic Rate) Calculator",
+      "IBW (Ideal Body Weight) Calculator",
+      "Daily Calorie Needs Calculator",
+      "Water Intake Calculator",
+      "Protein Requirements Calculator",
+    ],
+    technologies: ["React", "Tailwind CSS", "DaisyUI"],
+    github: "https://github.com/arzooahmed",
+    live: "https://arzooahmed01.netlify.app/",
+    roles: [],
+  },
+  {
+    slug: "gardenscience-marketplace",
+    title: "GardenScience Marketplace",
+    tagline: "Large-Scale Gardening Marketplace",
+    description:
+      "A multi-role marketplace for gardening products and services. Sellers list courses, tools, seeds, and fertilizers. Service providers offer local and online gardening services. Buyers browse and purchase freely.",
+    longDescription:
+      "GardenScience is a large-scale marketplace project connecting gardening enthusiasts with sellers and service providers. The platform supports multiple user types with distinct experiences, district-based service matching for offline providers, and a robust admin panel for platform governance.",
+    image: "/images/projects/gardenscience.png",
+    category: ["mern", "fullstack"],
+    status: "ongoing",
+    statusNote: "Core marketplace features are in active development. Some advanced features listed are planned.",
+    features: [
+      { label: "Multi-role system: Buyer, Seller, Service Provider, Admin, Website Owner Shop", status: "completed" },
+      { label: "Seller product listings: courses, e-books, tools, seeds, fertilizers", status: "completed" },
+      { label: "Service provider listings: delivery, agriculturists, gardening services", status: "completed" },
+      { label: "District-based matching for offline/local service providers", status: "ongoing" },
+      { label: "Admin panel for platform oversight", status: "ongoing" },
+      { label: "Online and offline service request flow", status: "planned" },
+      { label: "Payment integration for marketplace transactions", status: "planned" },
+    ],
+    technologies: ["React", "Node.js", "Express.js", "MongoDB", "Firebase", "Tailwind CSS"],
+    github: "https://github.com/arzooahmed",
+    live: null,
+    roles: ["Buyer", "Seller", "Service Provider", "Admin", "Website Owner"],
+  },
+];
+
+export function getProjectBySlug(slug) {
+  return projects.find((p) => p.slug === slug) || null;
+}
