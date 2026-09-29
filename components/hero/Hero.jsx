@@ -178,8 +178,7 @@ export default function Hero() {
                 aria-hidden="true"
               />
 
-              Open to Junior Developer & Internship Opportunities
-            </motion.div>
+Currently Open to New Opportunities            </motion.div>
 
             <motion.p
               variants={fadeUp}
